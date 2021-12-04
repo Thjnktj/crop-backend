@@ -1,0 +1,30 @@
+{
+  "name": "crop-backend",
+  "version": "0.1.0",
+  "description": "This is backend in crop project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index",
+    "start": "node api/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thjnktj/crop-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thjnktj/crop-backend/issues"
+  },
+  "homepage": "https://github.com/Thjnktj/crop-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
